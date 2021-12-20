@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hachi+Maru+Pop&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>Products - Signal Stores | Home of quality phones</title>
+</head>
+<body>
+
+    <!--Header Section-->
+
+<div id="header" class="header-container">
+
+     <div class="navbar-container">
+
+         <div class="logo">
+             <h1>Signal collections</h1>
+             <p>phones <span>+</span> Quality</p>
+         </div>
+
+         <div class="nav-container">
+            <ul>
+                <li><a href="./index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fas fa-store"></i>Products</a></li>
+                <li><a href="#footer"><i class="fas fa-user-alt"></i>About</a></li>
+                <li><a href="#footer"><i class="fas fa-envelope"></i>Contact</a></li>
+                <li><a href="./account.html"><i class="fas fa-user-alt"></i>Account</a></li>
+            </ul>
+
+            <button id="close">
+                <i class="fas fa-times"></i>
+            </button>
+            
+        </div>
+         
+        <div class="cart">
+            <i class="fas fa-cart-arrow-down fa-3x"></i>
+            <span class="cart-counter">0</span>
+        </div>
+
+        <form id="form">
+            <input type="text" id="search" class="searchB" placeholder="search">
+        </form>
+            
+        <div class="control-menu">
+            <button id="open">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+
+        <div class="chevron">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+        </div>
+     </div>
+</div>
+
+
+<!--Cart items-->
+<div class="cart-container">
+    <h2 class="cart-title">CART</h2>
+
+<div class="table-header">
+    <div class="cart-content-header">
+        <span class="cart-product">PRODUCT</span>
+        <span class="cart-price">PRICE</span>
+        <span class="cart-quantity">QUANTITY</span>
+    </div>
+</div>
+
+ <div class="table-body">
+
+     <!--<div class="cart-content">
+         <div class="cart-img">
+            <img src="./images/apple-iphone-13-pro-max-01.jpg" width="200px" height="300px"><br>
+            <span class="cart-product-title">Iphone-13-Pro-Max</span>
+        </div>
+
+     <span class="cart-product-price">$100.00</span>
+
+     <div class="cart-product-quantity">
+         <input type="number" value="3" class="cart-input">
+         <button class="btn delete-btn" type="button">Delete</button>
+     </div>
+    </div>
+ 
+
+ 
+    <div class="cart-content">
+        <div class="cart-img">
+           <img src="./images/apple-iphone-13-pro-max-01.jpg" width="200px" height="300px"><br>
+           <span class="cart-product-title">Iphone-13-Pro-Max</span>
+       </div>
+
+    <span class="cart-product-price">$100.00</span>
+
+    <div class="cart-product-quantity">
+        <input type="number" value="1" class="cart-input">
+        <button class="btn delete-btn" type="button">Delete</button>
+    </div>
+   </div>-->
+
+   </div>
+
+ <div class="total-cart">
+     <span class="total-title">Total :</span>
+     <span class="total-price">$0</span>
+     <button class="btn purchase-btn" type="button">PURCHASE</button>
+ </div>
+
+</div>
+   
+
+
+
+    <!-- Featured Products-->
+    <section id="featured-products" class="featured-products">
+
+        <div class="row">
+            <h2>All Products</h2>
+            <select>
+                <option value="">Default sorting</option>
+                <option value="">Sort by price</option>
+                <option value="">Sort by rating</option>
+                <option value="">Sort by popularity</option>
+                <option value="">Sort by sale</option>
+            </select>
+        </div>
+        
+
+        <div class="featured-content product-page">
+          
+
+            <div class="content">
+                <img src="./images/samsung-galaxy-f52-5g-1.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Samsung-F52-5G</h3>  
+                <div class="price" >$319.00</div> 
+                <button class="cart-btn">Add To Cart</button> 
+
+            </div>
+
+            <div class="content">
+                <img src="./images/sony-xperia-10-iii-lite-00.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Sony-Xperia-10-iii-Lite</h3>
+                <div class="price" >$404.50</div>  
+                <button class="cart-btn">Add To Cart</button>         
+            </div>
+
+            <div class="content">
+                <img src="./images/nokia-g50-2.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Nokia-G50</h3> 
+                <div class="price" >$206.00</div>   
+                <button class="cart-btn">Add To Cart</button>        
+            </div>
+
+            <div class="content">
+                <img src="./images/motorola-edge-20-fusion-00.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Motorola-Edge-20-Fusion</h3>  
+                <div class="price" >$290.00</div>
+                <button class="cart-btn">Add To Cart</button>         
+            </div>
+
+            
+            <div class="content">
+                <img src="./images/lg-w41-pro-2.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">LG-W41-Pro</h3>
+                <div class="price" >$197.00</div> 
+                <button class="cart-btn">>Add To Cart</button>            
+            </div>
+
+            
+            <div class="content">
+                <img src="./images/lenovo-z6-pro-2.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Lenovo-Z6-Pro</h3>   
+                <div class="price" >$473.00</div>   
+                <button class="cart-btn">Add To Cart</button>      
+            </div>
+
+            
+            <div class="content">
+                <img src="./images/huawei-nova-9-pro-5g-1 (1).jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Huawei-Nova-9-Pro-5G</h3>    
+                <div class="price" >$821.00</div> 
+                <button class="cart-btn">Add To Cart</button>           
+            </div>
+
+            
+            <div class="content">
+                <img src="./images/apple-iphone-12-pro-max-1.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Iphone-12-Pro-Max</h3>
+                <div class="price" >$1099.00</div> 
+                <button class="cart-btn">Add To Cart</button>    
+            </div>
+
+            <div class="content">
+                <img src="./images/apple-iphone-13-mini-2.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Iphone-13-Mini</h3>    
+                <div class="price" >$912.00</div> 
+                <button class="cart-btn">Add To Cart</button>         
+            </div>
+
+            <div class="content">
+                <img src="./images/nokia-g300-5g-2.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Nokia-G300-5G</h3>   
+                <div class="price" >$199.00</div>
+                <button class="cart-btn">Add To Cart</button>              
+            </div>
+
+            <div class="content">
+                <img src="./images/galaxy-z-flip3-1.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Samsung-Z-Flip</h3>     
+                <div class="price" >$1380.00</div>  
+                <button class="cart-btn">Add To Cart</button>  
+            </div>
+
+            <div class="content">
+                <img src="./images/apple-iphone-13-01.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Iphone-13</h3>        
+                <div class="price" >$1499.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/huawei-p50-1.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Huawei-P50</h3>        
+                <div class="price" >$770.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/huawei-watch-gt3-01.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Huawei-Gt3</h3>        
+                <div class="price" >$267.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/sony-xperia-pro-5g-0.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Sony-Xperia-Pro-5G</h3>        
+                <div class="price" >$2498.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/apple-watch-s6-1.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Apple-Watch-S6</h3>        
+                <div class="price" >$399.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/apple-watch-se-2.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Apple-Watch-Se</h3>        
+                <div class="price" >$749.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/samsung-galaxy-m42-2 (1).jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Galaxy-M42</h3>        
+                <div class="price" >$270</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/motorola-edge-2021-00.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Motorola-Edge-2021</h3>        
+                <div class="price" >$599.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+            <div class="content">
+                <img src="./images/apple-iphone-13-pro-max-01.jpg" class="cart-img" alt="">
+                <h3 class="cart-content-title">Iphone-13-Pro-max</h3>        
+                <div class="price" >$1599.00</div> 
+                <button class="cart-btn">Add To Cart</button>       
+            </div>
+
+        </div>
+
+    </section>
+
+
+   <!-- Footer -->
+   <section id="footer">
+       <div class="footer-container">
+           <div class="footer-column-1">
+               <h3>Download Our App</h3>
+               <p>App available for Andriod and Ios mobile phones</p>
+               <div class="apps-logo">
+                   <img src="./images/google playstore.png" alt="">
+                   <img src="./images/App store.png" alt="">
+              </div>
+               
+
+           </div>
+
+           <div class="footer-column-2">
+            <img src="./images/logo1.jpg" alt="">
+            <p></p>
+
+        </div>
+           
+
+        <div class="footer-column-3">
+            <h3>Useful Links</h3>
+              <ul>
+                  <li><a href="">Coupons</a></li>
+                  <li><a href="">Blog Post</a></li>
+                  <li><a href="">Return Policy</a></li>
+                  <li><a href="">Affliates</a></li>
+              </ul>       
+        </div>
+
+        <div class="footer-column-4">
+            <h3>Follow Us</h3>
+              <ul>
+                  <li><a href=""><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i> Twitter</a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i> Youtube</a></li>
+              </ul>       
+        </div>
+       </div>
+   </section>
+
+ <div class="copyright"><i class="far fa-copyright"></i>Sekooni Olumide | +2348119460199 | sekooniolumide@yahoo.com</div>
+<script src="products.js"></script>    
+</body>
+</html>
